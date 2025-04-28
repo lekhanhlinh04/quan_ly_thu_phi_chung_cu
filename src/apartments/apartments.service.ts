@@ -9,10 +9,13 @@ import { UpdateApartmentDTO } from './dtos/update-apartment.dto';
 export class ApartmentsService {
   constructor(private readonly prisma: PrismaService) {}
 
-  async createApartment(data: CreateApartmentDTO) {
+  async createApartment(data: CreateApartmentDTO, residentId: string) {
     try {
       const newApartment = await this.prisma.apartment.create({
-        data,
+        data: {
+          ...data,
+          residentId,
+        },
       });
 
       return {

@@ -11,7 +11,4 @@ export class CreateApartmentDTO {
 
   @IsUUID()
   buildingId: string;
-
-  @IsUUID()
-  residentId: string;
 }
