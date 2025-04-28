@@ -306,7 +306,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "/home/hnamhocit/Downloads/QuanLyThuPhiChungCu-20250428T064747Z-001/QuanLyThuPhiChungCu/server/generated/prisma",
+      "value": "/Users/kycodedao/Documents/GitHub/quan_ly_thu_phi_chung_cu/generated/prisma",
       "fromEnvVar": null
     },
     "config": {
@@ -315,12 +315,12 @@ const config = {
     "binaryTargets": [
       {
         "fromEnvVar": null,
-        "value": "rhel-openssl-3.0.x",
+        "value": "darwin-arm64",
         "native": true
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "/home/hnamhocit/Downloads/QuanLyThuPhiChungCu-20250428T064747Z-001/QuanLyThuPhiChungCu/server/prisma/schema.prisma",
+    "sourceFilePath": "/Users/kycodedao/Documents/GitHub/quan_ly_thu_phi_chung_cu/prisma/schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
@@ -338,7 +338,7 @@ const config = {
     "db": {
       "url": {
         "fromEnvVar": "DATABASE_URL",
-        "value": "mysql://root:@hn71LM5@localhost:3306/quan_ly_thu_phi_chung_cu?schema=public"
+        "value": "mysql://root:@localhost:3306/quan_ly_thu_phi_chung_cu?schema=public"
       }
     }
   },
@@ -382,8 +382,8 @@ exports.PrismaClient = PrismaClient
 Object.assign(exports, Prisma)
 
 // file annotations for bundling tools to include these files
-path.join(__dirname, "libquery_engine-rhel-openssl-3.0.x.so.node");
-path.join(process.cwd(), "generated/prisma/libquery_engine-rhel-openssl-3.0.x.so.node")
+path.join(__dirname, "libquery_engine-darwin-arm64.dylib.node");
+path.join(process.cwd(), "generated/prisma/libquery_engine-darwin-arm64.dylib.node")
 // file annotations for bundling tools to include these files
 path.join(__dirname, "schema.prisma");
 path.join(process.cwd(), "generated/prisma/schema.prisma")

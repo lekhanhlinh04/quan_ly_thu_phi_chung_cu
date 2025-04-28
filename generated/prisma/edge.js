@@ -305,7 +305,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "/home/hnamhocit/Downloads/QuanLyThuPhiChungCu-20250428T064747Z-001/QuanLyThuPhiChungCu/server/generated/prisma",
+      "value": "/Users/kycodedao/Documents/GitHub/quan_ly_thu_phi_chung_cu/generated/prisma",
       "fromEnvVar": null
     },
     "config": {
@@ -314,12 +314,12 @@ const config = {
     "binaryTargets": [
       {
         "fromEnvVar": null,
-        "value": "rhel-openssl-3.0.x",
+        "value": "darwin-arm64",
         "native": true
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "/home/hnamhocit/Downloads/QuanLyThuPhiChungCu-20250428T064747Z-001/QuanLyThuPhiChungCu/server/prisma/schema.prisma",
+    "sourceFilePath": "/Users/kycodedao/Documents/GitHub/quan_ly_thu_phi_chung_cu/prisma/schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
@@ -337,7 +337,7 @@ const config = {
     "db": {
       "url": {
         "fromEnvVar": "DATABASE_URL",
-        "value": "mysql://root:@hn71LM5@localhost:3306/quan_ly_thu_phi_chung_cu?schema=public"
+        "value": "mysql://root:@localhost:3306/quan_ly_thu_phi_chung_cu?schema=public"
       }
     }
   },
